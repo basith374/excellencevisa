@@ -1,0 +1,143 @@
+body {
+    margin: 0;
+    font-family: Merriweather, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+    color: #555;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+header {
+    padding: 2rem 0;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+:root {
+    --orange-light: #fdd42e;
+    --orange-dark: #ee633a;
+    --blue-dark: #3489c0;
+    --blue-light: #84aed6;
+    --blue-alt: #10a7de;
+    --blue-alt-dark: #263674;
+}
+
+.hero {
+    color: #fff;
+    height: 460px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 6rem;
+}
+.hero-c {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    width: 100%;
+}
+.hero-t {
+    max-width: 500px;
+}
+.cover {
+    // height: 600px;
+    background-image: url(/assets/background.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo img {
+    width: 200px;
+}
+.cob {
+    background: var(--blue-alt-dark);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 400px;
+    .txt {
+        padding: 0 2rem;
+    }
+}
+.points {
+    padding: 6rem 0 4rem;
+}
+@media screen and (min-width: 600px) {
+    .p-c {
+        display: flex;
+        justify-content: center;
+    }
+}
+.p-p {
+    width: 400px;
+    text-align: center;
+    padding: 0 2rem;
+    margin: 0 auto 4rem;
+}
+@media screen and (min-width: 600px) {
+    .p-p {
+        margin: 0;
+    }
+}
+.p-pi img {
+    height: 140px;
+}
+.contact {
+    padding: 4rem;
+    justify-content: center;
+}
+@media screen and (min-width: 600px) {
+    .contact {
+        display: flex;
+    }
+}
+.contact h1 {
+    margin: 0 0 2rem;
+}
+.c-info {
+    margin-bottom: 10px;
+}
+.map {
+    margin-bottom: 2rem;
+    iframe {
+        width: 100%;
+        max-width: 650px;
+        height: 450px;
+    }
+}
+@media screen and (min-width: 600px) {
+    .map {
+        margin-right: 2rem;
+        margin-bottom: 0;
+        width: 650px;
+    }
+}
+.contact .txt {
+    border: 2px dashed #ccc;
+    padding: 2rem;
+}
+.s-m {
+    display: flex;
+    width: 100px;
+    justify-content: space-around;
+    padding: 2rem 0;
+    margin: 0 auto;
+}
+.s-links {
+    background: #3e8bff;
+    background: var(--blue-dark);
+    background: #5553ac;
+}
+.s-m img {
+    width: 30px;
+    filter: invert(1);
+}
+.f-f {
+    text-align: center;
+    padding: 2rem 0;
+    background: #1c69dd;
+    background: var(--blue-alt-dark);
+    background: #42429f;
+    color: #fff;
+}
