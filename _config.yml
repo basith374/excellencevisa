@@ -22,7 +22,7 @@ title: Excellence Visa
 email: info@excellencevisa.com
 description: >- # this means to ignore newlines until "baseurl:"
   Get the right travel agent for your next journey. Excellence Visa is a travel agency in Ummul Hamam, Riyadh.
-baseurl: "/excellencevisa" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://basith374.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
