@@ -29,6 +29,9 @@ header {
     display: flex;
     align-items: center;
     padding-bottom: 6rem;
+    h1, .hero-t {
+        text-shadow: 0 0 5px rgba(0, 0, 0, .9);
+    }
 }
 .hero-c {
     max-width: 1000px;
@@ -44,6 +47,9 @@ header {
     background-image: url(/assets/background.jpg);
     background-size: cover;
     background-position: center;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    transition: 1s;
 }
 .logo img {
     width: 200px;
