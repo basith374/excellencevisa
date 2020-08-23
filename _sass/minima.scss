@@ -58,6 +58,7 @@ header {
     height: 400px;
     .txt {
         padding: 0 2rem;
+        line-height: 30px;
     }
 }
 .points {
@@ -74,6 +75,9 @@ header {
     text-align: center;
     padding: 0 2rem;
     margin: 0 auto 4rem;
+}
+.p-pt {
+    line-height: 24px;
 }
 @media screen and (min-width: 600px) {
     .p-p {
