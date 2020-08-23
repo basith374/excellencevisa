@@ -129,8 +129,9 @@ header {
 }
 .s-links {
     background: #3e8bff;
-    background: var(--blue-dark);
     background: #5553ac;
+    background: #263674;
+    background: var(--blue-alt-dark);
 }
 .s-m img {
     width: 30px;
@@ -142,5 +143,6 @@ header {
     background: #1c69dd;
     background: var(--blue-alt-dark);
     background: #42429f;
+    background: #192553;
     color: #fff;
 }
